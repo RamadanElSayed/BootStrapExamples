@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+     <!-- Meta tags -->
+     <meta charset = "utf-8">
+     <meta name = "viewport" content = "width = device-width, initial-scale = 1, shrink-to-fit = no">
+
+    <title>Alerts</title>
+  
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+</head>
+<body>
+  <!--for position:<a href="#" data-toggle="tooltip" data-placement="top" title="hover!">Hover</a>
+   top,left,right,bottom
+  -->
+    <div class="container">
+        <h3>Tooltip Example</h3>
+        <a href="#" data-toggle="tooltip" title="hover">Hover over me</a>
+      </div>
+      
+      <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+      });
+      </script>
+   <!-- jQuery first,then Bootstrap JS -->
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
+
